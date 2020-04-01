@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{20EAB920-580A-8987-AC77-1C8C6188F17B}</ProjectGuid>
+    <ProjectGuid>{0FC84307-36E4-1BE4-6625-F1971320B7B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,6 +59,10 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Script\EnemyMovement.cs" />
+     <Compile Include="Assets\Script\LookX.cs" />
+     <Compile Include="Assets\Script\LookY.cs" />
+     <Compile Include="Assets\Script\PlayerMovement.cs" />
      <None Include="Assets\Terrain Assets\Sounds\17298__luffy__luffy-fire3.txt" />
      <None Include="Assets\Terrain Assets\Campfire\Info.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
@@ -149,7 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9B580585-6451-BA3D-5112-F0B4195591AE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{9ED3D0D4-463F-2FF9-7B60-F1B73FCC1256}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
